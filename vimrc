@@ -12,3 +12,5 @@ filetype plugin indent on
 set background=light
 colorscheme solarized
 call togglebg#map("<F6>")
+
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
