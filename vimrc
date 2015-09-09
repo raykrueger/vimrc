@@ -4,6 +4,9 @@ set nocompatible  " We don't want vi compatibility.
 set nowrap
 set directory=/tmp
 set number
+set ignorecase
+set hlsearch
+set tabstop=2 softtabstop=0 noexpandtab shiftwidth=2
 
 execute pathogen#infect()
 syntax on
