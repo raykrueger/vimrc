@@ -9,6 +9,8 @@ set guioptions-=t
 set guioptions-=T
 set colorcolumn=80
 
+set lines=55 columns=170
+
 let g:solarized_visibility = 'low'
 set background=dark
 colorscheme solarized
@@ -20,3 +22,5 @@ if filereadable(my_home . '.gvimrc.local')
 endif
 
 let mapleader = ","
+
+set vb t_vb=
