@@ -8,6 +8,8 @@ set ignorecase
 set hlsearch
 set tabstop=2 softtabstop=0 noexpandtab shiftwidth=2
 
+nnoremap <leader>c :copen<cr>
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
