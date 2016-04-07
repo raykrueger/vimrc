@@ -6,9 +6,14 @@ set directory=/tmp
 set number
 set ignorecase
 set hlsearch
-set tabstop=2 softtabstop=0 noexpandtab shiftwidth=2
+set nojoinspaces
+set nomodeline
 
+set tabstop=2 softtabstop=2 shiftwidth=2 noexpandtab
+
+nnoremap mm :make<cr>
 nnoremap <leader>c :copen<cr>
+nnoremap <leader>m :make<cr>
 
 execute pathogen#infect()
 syntax on
