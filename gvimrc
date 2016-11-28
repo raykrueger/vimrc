@@ -15,12 +15,13 @@ let g:solarized_visibility = 'low'
 set background=dark
 colorscheme solarized
 
+let mapleader = ","
+
+set vb t_vb=
+
 " Load custom configuration
 let my_home = expand("$HOME/")
 if filereadable(my_home . '.gvimrc.local')
 	source ~/.gvimrc.local
 endif
 
-let mapleader = ","
-
-set vb t_vb=

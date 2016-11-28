@@ -24,3 +24,10 @@ colorscheme solarized
 call togglebg#map("<F6>")
 
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+" Load custom configuration
+let my_home = expand("$HOME/")
+if filereadable(my_home . '.vimrc.local')
+	source ~/.vimrc.local
+endif
+
