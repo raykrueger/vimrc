@@ -19,9 +19,6 @@
 [submodule "bundle/vim-gradle"]
 	path = bundle/vim-gradle
 	url = https://github.com/tfnico/vim-gradle
-[submodule "bundle/vim-sleuth"]
-	path = bundle/vim-sleuth
-	url = git://github.com/tpope/vim-sleuth.git
 [submodule "vim-javascript"]
 	path = vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
