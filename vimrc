@@ -31,3 +31,4 @@ if filereadable(my_home . '.vimrc.local')
 	source ~/.vimrc.local
 endif
 
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
