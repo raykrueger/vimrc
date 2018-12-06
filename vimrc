@@ -19,8 +19,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-set background=light
-colorscheme solarized
+" set background=light
+" colorscheme solarized
 call togglebg#map("<F6>")
 
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
@@ -31,4 +31,4 @@ if filereadable(my_home . '.vimrc.local')
 	source ~/.vimrc.local
 endif
 
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|target'
